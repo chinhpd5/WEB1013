@@ -4,7 +4,7 @@ Mục tiêu:
 1. Hiểu khái niệm website, cách website hoạt động trên Internet.
 2. Biết tạo một file HTML đầu tiên và hiển thị nội dung trên trình duyệt.
 3. Nắm được cấu trúc cơ bản của tài liệu HTML.
-4. Biết sử dụng các thẻ văn bản cơ bản như: <h1>, <p>, <br>, <strong>, <em>
+4. Biết sử dụng các thẻ văn bản cơ bản như: `<h1>`, `<p>`, `<br>`, `<strong>`, `<em>`
 
 ## Website là gì?
 - `Website`: tập hợp các trang web `(web pages)` liên kết với nhau.
