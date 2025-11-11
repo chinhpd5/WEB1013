@@ -2,3 +2,17 @@ h3 {
   color: darkblue;
   text-align: center;
 }
+
+h1 {
+  color: green
+}
+
+/* id */
+#paragraph-title {
+  color: red;
+}
+
+/* class */
+.paragraph-content {
+  background-color: rgb(74, 147, 0);
+}
