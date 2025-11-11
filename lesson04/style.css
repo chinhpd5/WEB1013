@@ -16,3 +16,40 @@ h1 {
 .paragraph-content {
   background-color: rgb(74, 147, 0);
 }
+
+.text-start {
+  /* căn trái */
+  text-align: left;
+  color: red;
+  /* kích thước */
+  font-size: 30px;
+  /* kiểu chữ */
+  font-family: Arial, Helvetica, sans-serif;
+  /* gạch chân */
+  text-decoration: underline;
+
+  /* kiểu chữ hoa hay thường */
+  text-transform: uppercase;
+
+}
+
+.text-center{
+  text-align: center;
+  /* màu sắc */
+  color: rgb(36, 65, 255);
+  /* độ đậm nhạt */
+  font-weight: bolder;
+
+  text-transform: lowercase;
+}
+
+.text-end{
+  /* căn phải */
+  text-align: right;
+  /* màu nền */
+  background-color: chocolate;
+  /* kiểu dáng */
+  font-style: italic;
+
+  text-transform: capitalize;
+}
