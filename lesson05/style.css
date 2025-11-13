@@ -36,4 +36,7 @@ body {
 
 .box3 {
   background-color: yellow;
+  margin: 0 auto;
+  border: 3px black solid;
+  border-radius: 50%;
 }
