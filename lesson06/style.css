@@ -36,3 +36,10 @@ a:hover {
 a:visited {
   color: #b70000;
 }
+
+input:focus {
+  outline: none;
+  border: 2px #000f5b solid;
+  background-color: #e5e9ff;
+  border-radius: 5px;
+}
