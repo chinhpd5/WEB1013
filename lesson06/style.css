@@ -21,3 +21,18 @@ button:hover {
 button:active {
   background-color: #3a7a24;
 }
+
+a{
+  color: #004ccf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #012668;
+}
+
+/* thể hiện link đã được click */
+a:visited {
+  color: #b70000;
+}
