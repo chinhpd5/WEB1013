@@ -1,0 +1,23 @@
+
+button {
+  outline: none;
+  background-color: #64ca42;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: #64ca42 2px solid;
+  border-radius: 20px;
+}
+
+/* đưa chuột vào phần tử */
+button:hover {
+  background-color: #fff;
+  color: #64ca42;
+  border: 2px #64ca42 solid;
+  cursor: pointer;
+}
+
+/* khi click và giữ */
+button:active {
+  background-color: #3a7a24;
+}
