@@ -21,8 +21,27 @@
   background-color: green;
   /* position: relative: nhận vị trị tương đối so với giá trị ban đầu */
   position: relative;
-  top: 100px;
-  left: 100px;
+  top: 0px;
+  left: 0px;
   /* right: 10px;
   bottom: 100px; */
+}
+
+.parent-box {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #333;
+  /* box cha chứa box con: position: relative  */
+  position: relative;
+}
+
+.child-box {
+  width: 100px;
+  height: 100px;
+  background-color: #ff2f2f;
+  position: absolute;
+  /* top: 200px;
+  left: 200px; */
+  bottom: 10px;
+  right: 10px;
 }
