@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+  background-color: #ffa500;
+}
+
+.menu ul{
+  /* căn chữ cho phần tử bên trong ul vào giữa theo chiều ngang */
+  text-align: center;
+}
+
+.menu ul li {
+  /* đẩy các thẻ li lên cùng 1 hàng */
+  display: inline-block;
+  /* căn giữa chữ theo chiều dọc */
+  line-height: 50px;
+}
+
+.menu ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.menu ul li:hover {
+  background-color: #cf8700;
+  height: 50px;
+}
+
+.menu ul li:hover a {
+  color: #fff;
+}
+
+.menu ul li:active {
+  background-color: #7d5201;
+}
