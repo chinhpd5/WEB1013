@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.static-box {
+  /* mặc định các phần tử đều có position: static */
+  position: static;
+  width: 100px;
+  height: 100px;
+  background-color: #00f6f6;
+  /* top left right bottom: Không thể nhận nếu position: static */
+  top: 100px;
+  left: 100px;
+}
+
+.relative-box{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  /* position: relative: nhận vị trị tương đối so với giá trị ban đầu */
+  position: relative;
+  top: 100px;
+  left: 100px;
+  /* right: 10px;
+  bottom: 100px; */
+}
