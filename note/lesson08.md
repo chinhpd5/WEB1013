@@ -53,6 +53,7 @@ Giải quyết rất tốt các bài toán:
 - Co giãn linh hoạt các phần tử trong `layout`
 
 2. Cấu trúc Flexbox
+
 | Thành phần         | Mô tả                                      |
 | ------------------ | ------------------------------------------ |
 | **Flex Container** | Phần tử cha – nơi khai báo `display: flex` |
@@ -66,6 +67,7 @@ Giải quyết rất tốt các bài toán:
 ```
 
 4. Các thuộc tính quan trọng
+
 | Thuộc tính        | Ý nghĩa                                                 |
 | ----------------- | ------------------------------------------------------- |
 | `display: flex`   | Biến phần tử thành Flex Container                       |
