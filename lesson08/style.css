@@ -35,3 +35,51 @@
   /* trừ đi 50% chiều ngang và dọc của khối .center-box */
   transform: translate(-50%, -50%);
 }
+
+
+
+.parent {
+  border: 2px solid #333;
+  height: 400px;
+  margin: 40px;
+  /* mặc định: đưa các phần tử lên 1 hàng */
+  display: flex;
+  /* mặc định flex-direction = row */
+  /* flex-direction: row; */
+  /* justify-content: căn theo chiều ngang */
+  /* 
+    start: căn trái
+    center: căn giữa
+    end: căn phải
+    space-between: căn tách các phần tử tự động (2 phần tử ngoài cùng -> sát);
+    space-around: căn tách các phần tử tự động (độ rộng 2 bên lề = 1/2 khoảng các phần tử)
+    space-evenly: căn tách các phần tử tự động (khoảng cách lề và các phần tử bằng nhau)
+  */
+  justify-content: center;
+  /* align-items: căn theo chiều dọc */
+  align-items: center;
+  gap: 30px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: blue;
+  align-self: start;
+}
+
+.box3 {
+  background-color: green;
+}
+
+.box4 {
+  background-color: yellow;
+  align-self: end;
+}
