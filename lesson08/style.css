@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-title{
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.title {
+  /* căn giữa chữ */
+  text-align: center;
+  line-height: 100px;
+}
+
+.parent-box{
+  height: 500px;
+  border: 2px solid #333;
+  margin: 30px;
+  position: relative;
+}
+
+.center-box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* căn giữa khối */
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* trừ đi 50% chiều ngang và dọc của khối .center-box */
+  transform: translate(-50%, -50%);
+}
