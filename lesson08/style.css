@@ -72,7 +72,7 @@
 
 .box2 {
   background-color: blue;
-  align-self: start;
+  /* align-self: start; */
 }
 
 .box3 {
@@ -81,5 +81,20 @@
 
 .box4 {
   background-color: yellow;
-  align-self: end;
+  /* align-self: end; */
+}
+
+.parent2 {
+  height: 1200px;
+  border: 2px solid #333;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  /* 
+    Nếu flex-direction: column:
+    - justify-content: căn theo chiều dọc
+    - align-items: căn theo chiều ngang
+  */
+  justify-content: center;
+  align-items: center;
 }
