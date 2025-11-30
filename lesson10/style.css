@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* màu nền */
+  background-color: #e9fff8;
+}
+
+.container{
+  /* chiều ngang */
+  width: 1500px;
+  /* căn giữa */
+  margin: 0 auto;
+}
+
+header{
+  background-color: #fff;
+}
+
+.header-top{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 20px;
+}
+
+.header-top-title{
+  color: #004f03;
+}
+
+.header-bootom{
+  background-color: #004f03;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul li {
+  list-style: none;
+  padding: 20px;
+  border-right: 1px solid #fff;
+}
+
+.nav-left ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-left ul li:hover a {
+  color: #e6ff01;
+}
+
+
+
+.input-search {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: #004f03;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin:0 20px;
+  font-size: 15px;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.main-top-left {
+  border: 1px solid #333;
+  width: 50%;
+  padding: 10px;
+}
+
+.main-title{
+  font-size: 20px;
+  color: #004f03;
+}
+
+.item-content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-p {
+  width: 10px;
+  height: 10px;
+}
+
+.content-p {
+  color: #004f03;
+}
+
+.main-top{
+  display: flex;
+}
+
+.main-top-right {
+  width: 50%;
+}
+
+.right-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.main-bottom{
+  border: 1px solid #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-card{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img{
+  width: 100%;
+}
+
+.card-p{
+  color: #004f03;
+  font-size: 25px;
+}
+
+.first-text{
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.cart-price{
+  color: red;
+  font-size: 20px;
+}
+
+.price-old{
+  color: #333;
+  text-decoration: line-through;
+}
+
+main {
+  height: 800px;
+  margin-top: 20px
+}
+
+footer{
+  background-color: #004f03;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-title{
+  color: #fff;
+}
